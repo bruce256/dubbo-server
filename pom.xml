@@ -63,41 +63,6 @@
 		</dependency>
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>jd.repository</id>
-			<url>http://artifactory.360buy-develop.com/libs-releases-local</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>jd.repository.snapshots</id>
-			<url>http://artifactory.360buy-develop.com/libs-snapshots-local</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy><!-- 下载间隔，可选 daily, never, always, 
-					interval:x (每隔x分钟检查一次更新) -->
-			</snapshots>
-		</repository>
-		<repository>
-			<id>jd.repo1.cache</id>
-			<url>http://artifactory.360buy-develop.com/repo1-cache</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
 	<distributionManagement>
 		<snapshotRepository>
 			<id>jd.repository.snapshots</id>
