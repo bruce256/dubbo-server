@@ -9,7 +9,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <v.spring>4.3.16.RELEASE</v.spring>
+        <v.spring>5.2.2.RELEASE</v.spring>
         <v.plugin.jar>2.3.1</v.plugin.jar>
     </properties>
 
