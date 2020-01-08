@@ -21,11 +21,11 @@
             <artifactId>dubbo-server-api</artifactId>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
             <version>${v.dubbo}</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.apache.dubbo</groupId>
@@ -35,6 +35,11 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-rpc-memcached</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-registry-zookeeper</artifactId>
         </dependency>
 
         <dependency>

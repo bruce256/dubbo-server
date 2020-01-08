@@ -11,7 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <v.spring>4.3.16.RELEASE</v.spring>
         <v.plugin.jar>2.3.1</v.plugin.jar>
-        <v.dubbo>2.7.3</v.dubbo>
+        <v.dubbo>2.7.5</v.dubbo>
     </properties>
 
     <dependencyManagement>
@@ -19,7 +19,7 @@
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-bom</artifactId>
-                <version>2.7.5</version>
+                <version>${v.dubbo}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
