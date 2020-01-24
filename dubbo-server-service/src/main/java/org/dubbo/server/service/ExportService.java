@@ -29,7 +29,7 @@ public class ExportService {
 		service.setProtocol(protocol);
 		service.setInterface(DemoService.class);
 		service.setRef(demoService);
-		service.setGroup(group);
+		//service.setGroup(group);
 		service.setRetries(3);
 		service.setTimeout(5000);
 		service.setAsync(false);

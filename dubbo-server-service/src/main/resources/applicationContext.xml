@@ -32,4 +32,6 @@
         provider="im.riskctrl.dubbo.provider" >
     </dubbo:service> -->
 
+    <dubbo:monitor protocol="registry"/>
+
 </beans>  
