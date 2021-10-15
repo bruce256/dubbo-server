@@ -12,7 +12,7 @@
        default-autowire="byName">
 
     <bean id="a" class="org.dubbo.server.service.circular.A"/>
-    
+
     <bean id="b" class="org.dubbo.server.service.circular.B"/>
 
     <context:component-scan base-package="org.dubbo.server.service"/>
@@ -21,7 +21,10 @@
                        owner="lvsheng"/>
 
     <!-- 使用zookeeper注册中心暴露服务地址 -->
-    <dubbo:registry id="registry" address="zookeeper://127.0.0.1:2181"/>
+    <!--    <dubbo:registry id="registry" address="zookeeper://127.0.0.1:2181"/>-->
+
+    <!-- 使用nacos注册中心暴露服务地址 -->
+    <dubbo:registry id="registry" address="nacos://127.0.0.1:8848"/>
 
     <dubbo:protocol id="protocol" name="dubbo" port="25000"
                     heartbeat="0" threadpool="cached" threads="512"/>
